@@ -1,0 +1,25 @@
+.metodologiaBEM{   
+    
+    background-color: blue;
+}
+.metodologiaBEM_titulo{
+    background-color: yellow ;
+}
+.metodologiaBEM--explicacion{
+    background-color: red;
+}
+
+.bloque{
+    
+    background-color: rgb(20, 60, 120);
+}
+.bloque_titulo{
+    background-color: rgb(100, 200, 150);
+}
+.bloque--parrafo1{
+    background-color: rgb(250,220,50);
+}
+.bloque--parrafo2{
+    background-color: rgb(200, 200, 200);
+}
+
