@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de CSS</title>
+    <link rel="stylesheet" href="css/ce.css">
+</head>
+<body>
+    <h1>Conceptos de CSS</h1>
+    
+    <h2>Metodología BEM</h2>
+    <p>BEM es una metodología que ayuda a estructurar y nombrar clases CSS para mejorar la mantenibilidad del código.</p>
+    <img src="images/primer img.jpg" alt="">
+    <div class="bem__block">
+        Bloque
+        <br>
+        <img src="images/segunda img.jpg" alt="">
+        <div class="bem__block__element">Elemento </div>
+        <img src="images/tercera img.jpg" alt="">
+        <div class="bem__block--modifier">Bloque Modificado </div>
+        <img src="images/cuarta img.jpg" alt="">
+        
+    </div>
+    
+    <h2>Combinadores en CSS</h2>
+    <p>Los combinadores permiten seleccionar elementos en función de su relación con otros elementos.</p>
+    <ul>
+        <li><strong>Combinador de descendientes (espacio):</strong> selecciona elementos dentro de otro elemento.</li>
+        <li><strong>Combinador de hijo (>):</strong> selecciona elementos hijos directos.</li>
+        <li><strong>Combinador de adyacencia (+):</strong> selecciona el primer elemento que sigue inmediatamente a otro.</li>
+        <li><strong>Combinador de hermanos generales (~):</strong> selecciona todos los elementos hermanos siguientes.</li>
+    </ul>
+    
+    <h2>Combinadores Lógicos</h2>
+    <p>Permiten combinar selectores para aplicar estilos de manera más flexible.</p>
+    <ul>
+        <li><strong>, (coma):</strong> Aplica un mismo estilo a múltiples selectores.</li>
+        <li><strong>:is():</strong> Selecciona múltiples elementos con menos código.</li>
+        <li><strong>:where():</strong> Similar a :is() pero sin afectar la especificidad.</li>
+        <li><strong>:not():</strong> Excluye elementos de un selector.</li>
+    </ul>
+    
+    <h2>Pseudoclases</h2>
+    <p>Permiten aplicar estilos a elementos en estados específicos.</p>
+    <ul>
+        <li>:hover - Cuando el usuario pasa el cursor sobre el elemento.</li>
+        <li>:focus - Cuando el elemento recibe el foco.</li>
+        <li>:active - Cuando el elemento está activo.</li>
+    </ul>
+    
+    <h2>Pseudoclases de Estructura</h2>
+    <p>Se utilizan para seleccionar elementos en función de su posición dentro de un contenedor.</p>
+    <ul>
+        <li>:first-child - Primer hijo de un elemento padre.</li>
+        <li>:last-child - Último hijo de un elemento padre.</li>
+        <li>:nth-child(n) - Selecciona elementos en base a una fórmula.</li>
+        <li>:nth-of-type(n) - Similar a nth-child pero basado en el tipo de elemento.</li>
+    </ul>
+    
+    <h2>Reglas en CSS</h2>
+    <p>Una regla CSS está compuesta por un selector y un bloque de declaraciones.</p>
+    <pre>
+        selector {
+            propiedad: valor;
+        }
+    </pre>
+    
+    <p>Ejemplo:</p>
+    <pre>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </pre>
+</body>
+</html>

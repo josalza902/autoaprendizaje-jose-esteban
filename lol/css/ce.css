@@ -1,0 +1,72 @@
+/* Metodología BEM */
+.bloque {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .bloque__elemento {
+    background-color: #333;
+    font-size: 18px;
+  }
+  
+  .bloque__elemento--modificador {
+    background-color: red;
+    font-weight: bold;
+  }
+  
+  /* Combinadores */
+  /* Hijo directo */
+  .contenedor > p {
+    background-color: blue;
+  }
+  
+  /* Hermano adyacente */
+  h1 + p {
+    font-style: italic;
+  }
+  
+  /* Hermano general */
+  h2 ~ p {
+    background-color: underline;
+  }
+  
+  /* Combinadores lógicos */
+  div:not(.excluir) {
+    border: 2px solid black;
+  }
+  
+  /* Pseudoclases */
+  a:hover {
+    background-color: green;
+  }
+  
+  input:focus {
+    background-color: yellow;
+  }
+  
+  /* Pseudoclases de estructura */
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  ul li:last-child {
+    background-color: red;
+  }
+  
+  ul li:nth-child(odd) {
+    background-color: green;
+  }
+  
+  /* Reglas generales */
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
